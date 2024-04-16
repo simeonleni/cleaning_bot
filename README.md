@@ -1,7 +1,7 @@
 # AI Assignment - Home Cleaning Robot Navigation and TSP with Hill Climbing
 
 ## Developer: Simeon Tuyoleni
-- Time Spent: 26 hours
+- Time Spent: 8 hours
 - Assignment Type: Individual (supposed to be in a group)
 
 ### Introduction
