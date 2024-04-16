@@ -1,31 +1,58 @@
-# Home Cleaning Robot Navigation System
+# AI Assignment - Home Cleaning Robot Navigation and TSP with Hill Climbing
 
-## Overview
+## Developer: Simeon Tuyoleni
+- Time Spent: 26 hours
+- Assignment Type: Individual (supposed to be in a group)
 
-This project is about making a smart navigation system for a home cleaning robot. The robot should be able to clean all parts of a house efficiently, avoiding obstacles like furniture.
+### Introduction
+This assignment involves two main tasks:
+1. Developing a navigation system for a home cleaning robot in a rectangular environment.
+2. Solving the Travelling Salesman Problem (TSP) using the hill climbing algorithm.
 
-## Project Structure
+### Task 1: Home Cleaning Robot Navigation (60%)
+#### Modelling the Environment (20%)
+- Designed a grid-based map to represent the robot's environment.
+- Defined states and possible actions for the robot.
 
-### 1. Modelling the Environment
+#### Cost Function and Heuristic (20%)
+- Defined a cost function for robot actions.
+- Designed a heuristic function to estimate remaining distance.
 
-We use a grid-like map to represent the robot's environment. Each square on the grid is a small part of the floor where the robot can go. We also define where the robot can be and what it can do, like moving forward or turning.
+#### Implementation and Testing (50%)
+- Implemented A* search algorithm for optimal pathfinding.
+- Tested on various environments with different obstacles.
+- Analyzed heuristic impact on path efficiency.
 
-### 2. Cost Function and Heuristic
+### Task 2: Travelling Salesman Problem (TSP) with Hill Climbing (40%)
+#### Problem Representation (20%)
+- Designed data structure for places and distances.
+- Implemented functions for calculating route distance.
 
-We figure out how much effort each action takes for the robot. For example, moving over carpet might be harder than on a hardwood floor. We also use a smart guess (heuristic) to help the robot plan its route quickly.
+#### Hill Climbing Algorithm (50%)
+- Implemented hill climbing algorithm for TSP.
+- Defined functions for generating initial route and exploring neighbours.
+- Analyzed algorithm performance and compared to optimal solution.
 
-### 3. Implementation and Testing
+#### Analysis and Comparison (20%)
+- Analyzed time complexity of hill climbing implementation.
+- Compared distances found by algorithm with optimal distance.
+- Analyzed impact of iterations on solution quality.
 
-We write code using the A* search method to find the best way for the robot to clean the entire house. Then, we test this code with different house layouts to see how well it works.
+### Visualisation (10%)
+- Developed visualisation tool to display environments, paths, and progress.
+- Discussed effectiveness of A* algorithm and potential improvements.
 
-### 4. Visualization
+### Instructions
+- Weighting: Question 1 (60%), Question 2 (40%)
+- Group Work: Individual assignment due to constraints.
+- Languages: Python or Julia
+- Submission: Individual commits on GitHub or GitLab by April 7, 2024.
 
-We create a tool to show how the robot moves around the house and cleans. This helps us understand if our plan is working and if the robot is efficient.
+### Collaboration and Communication
+- Utilize online tools for effective group communication and collaboration.
+- Ensure each group member contributes and understands concepts.
+- Use clear comments and variable names in code for readability.
+- Demonstrate understanding of AI concepts, problem-solving skills, and effective communication.
 
-## How It's Done
-
-I've used Jupyter Notebook to organize and describe my code step by step. It's like writing a story about how the robot navigates and cleans.
-
-## Contribution
-
-If you have ideas or improvements for this project, feel free to share them. Your input can make the robot even better at cleaning homes!
+### Good Luck!
+Wishing everyone success in completing the assignment effectively and demonstrating a deep understanding of AI concepts and algorithms.
